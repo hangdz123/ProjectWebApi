@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+    Layout = null;
+}
+<link href="~/css/login.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.1/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
+<script src="~/js/login-backbone.js"></script>
+
+<div class="container">
+    <div class="background-img"></div>
+    <div class="content">
+        <h1>Hệ thống hành chính điện tử thông minh</h1>
+        <h4>BỘ TƯ PHÁP</h4>
+        <img src="~/img/group 18.png" />
+        <img src="~/img/frame 89.png" />
+    </div>
+    <div class="login">
+        <img src="~/img/group.png" alt="Login Icon" />
+        <h4>Đăng nhập</h4>
+        <form class="login-container" id="loginForm">
+            <input type="email" id="username" placeholder="Tên đăng nhập" required />
+            <input type="password" id="password" placeholder="Mật khẩu" required />
+            <p>
+                <input type="checkbox" id="rememberMe" />
+                <label for="rememberMe">Duy trì đăng nhập</label>
+            </p>
+            <input type="submit" value="Đăng Nhập" />
+            <p><a href="#">Quên mật khẩu</a></p>
+        </form>
+    </div>
+</div>
+
