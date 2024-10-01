@@ -163,7 +163,7 @@ class MyComponent {
             idUser = null;
         });
         $('.btn-modal-close').on('click', function () {
-            $('#createUser .modal-title').text('Thêm Mới Người DùngThêm Mới Cán bộ');
+            $('#createUser .modal-title').text('Thêm Mới Người Dùng');
             $('#createUser .btn-modal-confirm').text('Thêm');
             idUser = null;
             window.location.reload();

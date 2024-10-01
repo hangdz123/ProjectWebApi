@@ -33,6 +33,20 @@ namespace BackEnd.Controllers
             return Ok(query);
         }
         [HttpGet]
+        [Route("GetAllItemType")]
+        public IActionResult GetAllItemType()
+        {
+            var query = itemServices.GetItemType();
+            return Ok(query);
+        }
+        [HttpGet]
+        [Route("GetAllItemManu")]
+        public IActionResult GetAllItemManu()
+        {
+            var query = itemServices.GetItemManu();
+            return Ok(query);
+        }
+        [HttpGet]
         [Route("GetItemDetail")]
         public IActionResult GetItemDetail(int Id)
         {

@@ -33,6 +33,38 @@ namespace BackEnd.Services
                 });
             return itemDtos;
         }
+        public async Task<IEnumerable<ItemTypeDto>> GetItemType()
+        {
+            var item = dbContext.ItemsType.AsQueryable();
+            var itemDtos = item
+                .Select(i => new ItemTypeDto
+                {
+                    Id = i.Id,
+                    Name = i.Name
+                });
+            return itemDtos;
+        }
+        public class ItemTypeDto
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
+        public async Task<IEnumerable<ItemManuDto>> GetItemManu()
+        {
+            var item = dbContext.Manufacturer.AsQueryable();
+            var itemDtos = item
+                .Select(i => new ItemManuDto
+                {
+                    Id = i.Id,
+                    Name = i.Name
+                });
+            return itemDtos;
+        }
+        public class ItemManuDto
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
         public async Task<ItemsDto> GetDetailItem(int id)
         {
             var item = dbContext.Items.Find(id);

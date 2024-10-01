@@ -193,6 +193,12 @@
         box-sizing: border-box; /* Đảm bảo kích thước bao gồm cả padding và border */
         margin-bottom: -5px;
     }
+    .userClass .mb-4 select {
+        width: 60%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: -5px;
+    }
 
     .userClass .mb-4 label {
         width: 20%;

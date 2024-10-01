@@ -27,6 +27,7 @@
                     <th>STT</th>
                     <th>Tên sản phẩm</th>
                     <th>Số lượng</th>
+                    <th>Ngày cập nhật</th>
                     <th>Ảnh</th>
                     <th>Sửa</th>
                     <th>Xóa</th>
@@ -44,13 +45,13 @@
                 <div class="modal-header">
                     <h5 class="modal-title" id="modalTitle">Thêm Mới Sản Phẩm</h5>
                     <div>
-                        <button type="button" class="btn btn-modal-confirm btn-create-user" id="modalConfirmBtn">Thêm</button>
+                        <button type="button" class="btn btn-modal-confirm btn-create-item" id="modalConfirmBtn">Thêm</button>
                         <button type="button" class="btn btn-modal-close" data-bs-dismiss="modal">Đóng</button>
                     </div>
                 </div>
                 <div class="modal-body">
                     <div class="userClass">
-                        <form id="userForm">
+                        <form id="itemForm">
                             <div class="mb-4">
                                 <label for="NameItem" class="form-label">Tên sản phẩm<span style="color:red">*</span>:</label>
                                 <input type="text" class="form-control" id="NameItem">
@@ -60,11 +61,15 @@
                             </div>
                             <div class="mb-4">
                                 <label for="TypeItem" class="form-label">Loại sản phẩm:</label>
-                                <input type="text" class="form-control" id="TypeItem">
+                                <select class="form-control" id="TypeItem">
+                                    <option value="">Chọn loại sản phẩm</option>
+                                </select>
                             </div>
                             <div class="mb-4">
                                 <label for="ManuItem" class="form-label">Hãng sản xuất:</label>
-                                <input type="text" class="form-control" id="ManuItem">
+                                <select class="form-control" id="ManuItem">
+                                    <option value="">Chọn hãng sản xuất</option>
+                                </select>
 
                             </div>                           
                             <div class="mb-4">
