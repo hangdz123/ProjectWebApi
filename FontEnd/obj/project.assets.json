@@ -8749,24 +8749,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TrungLVc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\AppC#\\ProjectWebApi\\FontEnd\\FontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\FontEnd.csproj",
       "projectName": "FontEnd",
-      "projectPath": "F:\\AppC#\\ProjectWebApi\\FontEnd\\FontEnd.csproj",
-      "packagesPath": "C:\\Users\\TrungLVc\\.nuget\\packages\\",
-      "outputPath": "F:\\AppC#\\ProjectWebApi\\FontEnd\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\FontEnd.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\TrungLVc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8816,7 +8811,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

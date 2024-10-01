@@ -1,0 +1,100 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/css/admin.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/14.0.0/material-components-web.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/2.1.4/css/dataTables.material.css">
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> *@
+@* <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script> *@
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/14.0.0/material-components-web.min.js"></script>
+<script src="https://cdn.datatables.net/2.1.4/js/dataTables.js"></script>
+<script src="https://cdn.datatables.net/2.1.4/js/dataTables.material.js"></script>
+<link href="~/css/tables.css" rel="stylesheet" />
+<div class="container-top" id="boxContainer">
+    <div class="ImportFile">
+        <button type="button" data-bs-toggle="modal" aria-expanded="false" data-bs-target="#createItem">
+            Thêm
+        </button>
+        <button id="btn-hdimport">File Import Mẫu</button>
+        <button id="btn-import">Import Excel</button>
+        <input type="file" id="fileInput" accept=".xlsx" />
+    </div>
+    <div class="container-content">
+        <table id="itemTable" class="display">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Ảnh</th>
+                    <th>Sửa</th>
+                    <th>Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dữ liệu sẽ được chèn vào đây -->
+            </tbody>
+        </table>
+        <br />
+    </div>
+    <div class="modal" tabindex="-1" id="createItem">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Thêm Mới Sản Phẩm</h5>
+                    <div>
+                        <button type="button" class="btn btn-modal-confirm btn-create-user" id="modalConfirmBtn">Thêm</button>
+                        <button type="button" class="btn btn-modal-close" data-bs-dismiss="modal">Đóng</button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="userClass">
+                        <form id="userForm">
+                            <div class="mb-4">
+                                <label for="NameItem" class="form-label">Tên sản phẩm<span style="color:red">*</span>:</label>
+                                <input type="text" class="form-control" id="NameItem">
+                            </div>
+                            <div class="mb-4">
+                                <div id="nameError" style="color: red; display: none; margin-left: 20%;"></div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="TypeItem" class="form-label">Loại sản phẩm:</label>
+                                <input type="text" class="form-control" id="TypeItem">
+                            </div>
+                            <div class="mb-4">
+                                <label for="ManuItem" class="form-label">Hãng sản xuất:</label>
+                                <input type="text" class="form-control" id="ManuItem">
+
+                            </div>                           
+                            <div class="mb-4">
+                                <label for="QuantityItem" class="form-label">Số lượng:</label>
+                                <input type="text" class="form-control" id="QuantityItem">
+                            </div>
+                            <div class="mb-4">
+                                <label for="PriceImportItem" class="form-label">Giá nhập:</label>
+                                <input type="text" class="form-control" id="PriceImportItem">
+                            </div>
+                            <div class="mb-4">
+                                <label for="Price" class="form-label">Giá bán:</label>
+                                <input type="text" class="form-control" id="Price">
+                            </div>
+                            <div class="mb-4">
+                                <label for="PriceKM" class="form-label">Giá khuyến mãi:</label>
+                                <input type="text" class="form-control" id="PriceKM">
+                            </div>
+                            <div class="mb-4">
+                                <label for="imageItem">Chọn ảnh</label>
+                                <input type="file" class="form-control" id="imageItem" accept="image/*">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+<script src="~/js/admin/box.js"></script>

@@ -1,0 +1,73 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/css/admin.css" rel="stylesheet" />
+<link href="~/css/setting.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<div class="container-top" id="settingContainer">
+    <div class="container-content">
+        <div class="policy-header">
+            <div>
+                <button type="button" class="btnConfirm" id="policyConfirmBtn">XÁC NHẬN</button>
+
+            </div>
+        </div>
+        <div class="policy-container">
+            <div class="policy-content">
+                <form class="syntaxchecking" id="syntaxcheckingForm">
+                    <h1>Kiểm tra cú pháp mật khẩu</h1>
+                    <div class="pc-1">
+                        <label>Cho chép kiểm tra cú pháp mật khẩu:</label>
+                        <input type="checkbox" id="cb-pass" />
+                    </div>
+                    <div class="pc-1">
+                        <label>Độ dài tối thiểu của mật khẩu<span style="color:red">*</span>:</label>
+                        <input type="text" id="length-pass" />
+                    </div>
+                    <div class="pc-1">
+                        <label>Số chữ thường tối thiểu:</label>
+                        <input type="text" id="min-anphabet1" />
+                    </div>
+                    <div class="pc-1">
+                        <label>Số chữ hoa tối thiểu:</label>
+                        <input type="text" id="min-anphabet2" />
+                    </div>
+                    <div class="pc-1">
+                        <label>Số chữ số tối thiểu:</label>
+                        <input type="text" id="min-number" />
+                    </div>
+                    <div class="pc-1">
+                        <label>Số ký tự đặc biệt tối thiểu:</label>
+                        <input type="text" id="min-char" />
+                    </div>
+                </form>
+                <form class="lookAccount" id="lookAccountForm">
+                    <h1>Mã Captcha</h1>
+                    <div class="pc-1">
+                        <label>Sử dụng captcha:</label>
+                        <input type="checkbox" id="cb-captcha" />
+                        <p2>(bỏ chọn sẽ dùng thời gian khóa)</p2>
+                    </div>
+                    <div class="pc-1">
+                        <div class="pc-2">
+                            <label>Kiểu captcha:</label>
+                            <input type="checkbox" id="cb-captchaApha" />
+                            <p3>Sử dụng chữ: (Ví dụ: 'MADQES', 'JOMCOC',...)</p3>
+                        </div>
+                        <div class="pc-2">
+                            <label> </label>
+                            <input type="checkbox" id="cb-captchaNumber" />
+                            <p3>Sử dụng nhiều kí tự toán học: (Ví dụ: '4 + 5 =',...)</p3>
+                        </div>
+                    </div>
+                    <div class="pc-1">
+                        <label>Số ký tự captcha phải nhập:</label>
+                        <input type="text" id="min-captcha" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+<script src="~/js/admin/setting.js"></script>

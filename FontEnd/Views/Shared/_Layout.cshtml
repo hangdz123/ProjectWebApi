@@ -3,45 +3,139 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - FontEnd</title>
+    <title>@ViewData["Title"] - Admin</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/FontEnd.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar styles */
+        .navbar-custom {
+            background-color: white;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+            .navbar-custom .nav-link {
+                color: black;
+            }
+
+                .navbar-custom .nav-link:hover {
+                    color: #ffc107;
+                }
+
+            .navbar-custom img {
+                width: 25px;
+            }
+
+        /* Sidebar styles */
+        .sidebar {
+            width: 250px;
+            background-color: #f8f9fa;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding: 20px 0;
+            border-right: 1px solid #dee2e6;
+        }
+
+            .sidebar .nav-item {
+                position: relative;
+                color: rgb(102, 102, 102);
+            }
+
+            .sidebar a {
+                padding: 15px 30px;
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: #495057;
+                transition: background-color 0.3s;
+            }
+
+                .sidebar a img {
+                    margin-right: 15px;
+                    width: 25px;
+                }
+
+                .sidebar a:hover {
+                    background-color: #e9ecef;
+                }
+
+        /* Main content styles */
+        .main-content {
+            margin-left: 280px;
+            padding: 30px;
+            flex-grow: 1;
+            background-color: white;
+            box-shadow: 0px 2px 20px #5993e9;
+            border-radius: 10px;
+            margin-right: 2%;
+            margin-bottom: 2%;
+        }
+
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FontEnd</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-item nav-link" href="/Admin/Home/HomePage">
+                <img src="~/img/Home.png" alt="Home" />
+                <span>Admin Dashboard</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="~/icon/notification.png" alt="Notifications" /> Thông báo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="~/icon/logout.png" alt="Logout" /> Đăng xuất</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="nav-option">
+        <div style="padding: 20px;">
+            <img src="~/img/anya.jpg" alt="Home" style="border-radius: 50%; width: 100px;" />
+        </div>
+        <a class="nav-item nav-link" id="home-link" href="/Admin/Home/HomePage">
+            <img src="~/icon/homeicon.png" alt="Home" />
+            <span>Trang chủ</span>
+        </a>
+        <a class="nav-item nav-link" id="user-link" href="/Admin/Home/UserPage">
+            <img src="~/icon/usericon.png" alt="Users" />
+            <span>Người dùng</span>
+        </a>
+        <a class="nav-item nav-link" id="box-link" href="/Admin/Home/BoxPage">
+            <img src="~/icon/boxes.png" alt="Products" />
+            <span>Mặt hàng</span>
+        </a>
+        <a class="nav-item nav-link" id="setting-link" href="/Admin/Home/SettingPage">
+            <img src="~/icon/settings.png" alt="Settings" />
+            <span>Cấu hình</span>
+        </a>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - FontEnd - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!-- Main Content -->
+    <div class="main-content">
+        @RenderBody()
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

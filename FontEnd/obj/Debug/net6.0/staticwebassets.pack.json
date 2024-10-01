@@ -1,248 +1,372 @@
 {
   "Files": [
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FontEnd.bundle.scp.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FontEnd.bundle.scp.css",
       "PackagePath": "staticwebassets\\FontEnd.bundle.scp.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\CSSUser\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\CSSUser\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\CSSUser\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\CSSUser\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\CSSUser\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\CSSUser\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\CSSUser\\style.css",
+      "PackagePath": "staticwebassets\\css\\CSSUser\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\CSSUser\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\CSSUser\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\CSSUser\\style.scss",
+      "PackagePath": "staticwebassets\\css\\CSSUser\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\setting.css",
+      "PackagePath": "staticwebassets\\css\\setting.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\css\\tables.css",
+      "PackagePath": "staticwebassets\\css\\tables.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\boxes.png",
+      "PackagePath": "staticwebassets\\icon\\boxes.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\homeicon.png",
+      "PackagePath": "staticwebassets\\icon\\homeicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\infoicon.png",
+      "PackagePath": "staticwebassets\\icon\\infoicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\logoadmin.png",
+      "PackagePath": "staticwebassets\\icon\\logoadmin.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\logout.png",
+      "PackagePath": "staticwebassets\\icon\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\notification.png",
+      "PackagePath": "staticwebassets\\icon\\notification.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\settings.png",
+      "PackagePath": "staticwebassets\\icon\\settings.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\icon\\usericon.png",
+      "PackagePath": "staticwebassets\\icon\\usericon.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\img\\Home.png",
+      "PackagePath": "staticwebassets\\img\\Home.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\img\\anya.jpg",
+      "PackagePath": "staticwebassets\\img\\anya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\img\\trangchuuser1.jpg",
+      "PackagePath": "staticwebassets\\img\\trangchuuser1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\Admin\\box.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\box.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\Admin\\home.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\Admin\\setting.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\setting.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\Admin\\user.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\user.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\User\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\User\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\User\\custom.js",
+      "PackagePath": "staticwebassets\\js\\User\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\User\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\User\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\AppC#\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\upload\\Img_16.png",
+      "PackagePath": "staticwebassets\\upload\\Img_16.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\upload\\Img_18.png",
+      "PackagePath": "staticwebassets\\upload\\Img_18.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\ProjectWebApi\\FontEnd\\wwwroot\\upload\\Img_2.jpg",
+      "PackagePath": "staticwebassets\\upload\\Img_2.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FontEnd.Microsoft.AspNetCore.StaticWebAssets.props",
