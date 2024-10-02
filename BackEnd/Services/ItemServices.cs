@@ -29,7 +29,13 @@ namespace BackEnd.Services
                     Id = i.Id,
                     Name = i.Name,
                     Quantity = i.Quantity,
-                    Image = i.Image
+                    Image = i.Image,                   
+                    ItemsTypeId = i.ItemsTypeId,
+                    ManufacturerId = i.ManufacturerId,
+                    DateUpdate = i.DateUpdate,
+                    PriceImport = i.PriceImport,
+                    Price = i.Price,
+                    PromotionalPrice = i.PromotionalPrice
                 });
             return itemDtos;
         }
@@ -82,6 +88,26 @@ namespace BackEnd.Services
                 Image = item.Image
             };
             return itemDtos;
+        }
+        public void Create(Items item)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException("item");
+            }
+
+            dbContext.Add(item);
+            dbContext.SaveChanges();
+        }
+        public void Update(Items item)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException("item");
+            }
+
+            dbContext.Update(item);
+            dbContext.SaveChanges();
         }
     }
 }

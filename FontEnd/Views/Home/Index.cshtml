@@ -1,6 +1,20 @@
 ﻿@{
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
 }
+<style>
+    .fixed-size-box {
+        width: 250px; /* Kích thước cố định cho ô sản phẩm */
+        height: 320px; /* Chiều cao cố định */
+        margin: 15px; /* Khoảng cách giữa các ô */
+    }
+
+    .box {
+        height: 100%; /* Đảm bảo box chiếm toàn bộ chiều cao của ô sản phẩm */
+        display: flex; /* Sử dụng flexbox để sắp xếp các phần tử bên trong */
+        flex-direction: column; /* Sắp xếp theo chiều dọc */
+        justify-content: space-between; /* Đảm bảo không có khoảng trống */
+    }
+</style>
 <!-- shop section -->
 
 <section class="shop_section layout_padding">
@@ -10,207 +24,8 @@
                 Latest Products
             </h2>
         </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p1.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Ring
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $200
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p2.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Watch
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $300
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p3.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Teddy Bear
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $110
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p4.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Flower Bouquet
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $45
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p5.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Teddy Bear
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $95
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p6.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Flower Bouquet
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $70
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p7.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Watch
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $400
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box">
-                    <a href="">
-                        <div class="img-box">
-                            <img src="images/p8.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h6>
-                                Ring
-                            </h6>
-                            <h6>
-                                Price
-                                <span>
-                                    $450
-                                </span>
-                            </h6>
-                        </div>
-                        <div class="new">
-                            <span>
-                                New
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        <div class="row" id="product-list">
+
         </div>
         <div class="btn-box">
             <a href="">
@@ -676,3 +491,5 @@
     </div>
 </section>
 <!-- end client section -->
+
+<script src="~/js/user/homeuser.js"></script>

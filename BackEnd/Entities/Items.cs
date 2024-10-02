@@ -13,6 +13,6 @@
         public float PriceImport { get; set; } //Giá nhập
         public float Price {  get; set; } //Giá bán
         public float? PromotionalPrice { get; set; } //Giá khuyến mãi manufacturer
-        public string Image {  get; set; }
+        public string? Image {  get; set; }
     }
 }
